@@ -15,17 +15,17 @@
     <section class="form-main-content">
          <section class="input-controller">
             <div class="input-main-container">
-                <input type="text" placeholder="first-name" class="input-container">
+                <input type="text" id="fname" placeholder="first-name" class="input-container">
             </div>
 
             <div class="input-main-container">
-                <input type="text" placeholder="last-name" class="input-container">
+                <input type="text" id="lname" placeholder="last-name" class="input-container">
             </div>
             <div class="input-main-container">
-                <input type="text" placeholder="email" class="input-container">
+                <input type="text" id="email" placeholder="email" class="input-container">
             </div>
             <div class="input-main-container">
-                <input type="text" placeholder="password" class="input-container">
+                <input type="password" id="pass" placeholder="password" class="input-container">
             </div>
           
          </section>
@@ -33,10 +33,11 @@
             <h5 class="login-desc">already a memeber ? <span>log in</span></h5>
          </section>
          <section class="signUp-btn">
-            <a href="#" class="signUp-link">sign up</a>
+            <button type="submit" class="signUp-link">sign up</button>
          </section>
          <section class="error-msg-container">
-            <p class="error-desc">if an error occurs when filling a message will drop</p>
+            <ul class="error-desc">
+            </ul>
          </section>
     </section>
 </form>
